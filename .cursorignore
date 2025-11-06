@@ -1,3 +1,10 @@
+# --- Data and JSONs ---
+# ignore all the jsons and irrelevant data to the context
+
+**/forecasts/**
+
+
+
 # --- Environment and Dependencies ---
 # Ignore the virtual environment directory (the most important exclusion)
 # This directory often contains thousands of files and is irrelevant to the AI.
