@@ -12,6 +12,8 @@
 **/venv/
 **/.venv/
 **/env/
+**/.cache/
+
 
 # --- Build and Distribution Files ---
 # Ignore compiled Python files
@@ -35,6 +37,7 @@
 **/.git/
 **/.hg/
 **/.svn/
+**/.github/
 
 # --- Logs and Outputs ---
 # Ignore log files and temporary output
