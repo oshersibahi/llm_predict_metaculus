@@ -1,0 +1,43 @@
+# --- Environment and Dependencies ---
+# Ignore the virtual environment directory (the most important exclusion)
+# This directory often contains thousands of files and is irrelevant to the AI.
+# Common names are '.venv' or 'venv'
+**/venv/
+**/.venv/
+**/env/
+
+# --- Build and Distribution Files ---
+# Ignore compiled Python files
+**/*.pyc
+**/__pycache__/
+
+# Ignore packaging and distribution files
+**/build/
+**/dist/
+**/*.egg-info/
+**/.eggs/
+
+# --- Configuration and Metadata ---
+# Ignore common editor/IDE configuration directories
+**/.vscode/
+**/.idea/
+**/.mypy_cache/
+**/.pytest_cache/
+
+# Ignore general development metadata
+**/.git/
+**/.hg/
+**/.svn/
+
+# --- Logs and Outputs ---
+# Ignore log files and temporary output
+*.log
+*.tmp
+# Ignore Jupyter notebook checkpoint folders
+**/.ipynb_checkpoints/
+
+# --- Web Framework Specific (if applicable) ---
+# Ignore static asset build/output directories often used by web frameworks
+# e.g., for Django or Flask projects when using front-end build tools
+**/static_root/
+**/media_root/
